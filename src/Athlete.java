@@ -10,7 +10,8 @@ public class Athlete extends Person
 {
     String sport;
 
-    public Athlete(String firstName, String lastName, String phoneNumber, String sport)
+    public Athlete(String firstName, String lastName,
+                   String phoneNumber, String sport)
     {
         super(firstName, lastName, phoneNumber);
         this.sport = sport;

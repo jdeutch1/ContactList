@@ -14,7 +14,8 @@ public class Student extends Person
      */
     int grade;
 
-    public Student(String firstName, String lastName, String phoneNumber, int grade)
+    public Student(String firstName, String lastName,
+                   String phoneNumber, int grade)
     {
         super(firstName, lastName, phoneNumber);
         this.grade = grade;
