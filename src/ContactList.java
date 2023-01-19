@@ -180,7 +180,7 @@ public class ContactList
     }
 
     /**
-     * Takes input of last name and returns person w/matching last name
+     *  input of last name and returns person w/matching last name
      * Returns null if no match
      */
     public Person searchByLastName(String lastName)
